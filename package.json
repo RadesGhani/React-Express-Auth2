@@ -1,0 +1,21 @@
+{
+  "name": "express-roles-auth",
+  "version": "1.0.0",
+  "description": "Express server with pre-made user authentication and roles.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node bin/preinstall",
+    "start": "nodemon .",
+    "production": "NODE_ENV=production nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rades Ghani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4"
+  }
+}
